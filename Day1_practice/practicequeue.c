@@ -34,12 +34,12 @@ int main() {
     while (size() > 1) {
         // 제일 위 카드 버림
         delete();
-
+    
         // 다음 카드 맨 아래로 이동
         int x = delete();
         insert(x);
     }
-33
+    
     // 마지막 남은 카드 출력
     printf("%d\n", delete());
 
