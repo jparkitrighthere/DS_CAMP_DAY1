@@ -16,7 +16,7 @@ void pop() {
         printf("-1\n");
         return;
     }
-    count—;
+    count--;
     printf("%d\n", number[count]);
 }
 
